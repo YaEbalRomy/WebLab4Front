@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.MuiTypography-root,
+.MuiButtonBase-root,
+.MuiInputBase-root,
+.MuiFormLabel-root,
+.MuiFormHelperText-root,
+.MuiTableCell-root{
+    font-family: 'Raleway', sans-serif !important;
+}
+
+input[type=text],
+input[type=password]{
+    cursor: url("assets/cursors/default_text.svg"), auto
+}
+
+.MuiButtonBase-root{
+    box-shadow: none !important;
+}
+
+.MuiFormControl-root{
+    border-color: red;
+}
+
+#pointer {
+    animation: pointVisible;
+    animation-duration: 1s;
+}
+
+@keyframes pointVisible {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
